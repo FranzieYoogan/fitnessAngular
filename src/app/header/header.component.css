@@ -1,0 +1,32 @@
+.gymStyle {
+
+    color: white !important;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 900;
+} 
+
+.navbarStyle {
+
+    border-bottom: 2px solid black;
+    background-color: #fe6a16;
+
+}
+
+.divHeader {
+
+    background-color: #fe6a16;
+
+}
+
+
+.anchorStyle {
+
+    color: white !important;
+ 
+}
+
+.anchorStyle:hover, .anchorStyle:focus , .anchorStyle:visited {
+
+    border-bottom: 1px solid white;
+
+}

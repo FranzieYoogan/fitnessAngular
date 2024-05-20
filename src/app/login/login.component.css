@@ -1,0 +1,48 @@
+button {
+
+    background-color: red;
+
+}
+
+button:hover {
+
+    background-color: rgb(172, 4, 4);
+
+}
+
+input {
+
+    border: 1px solid black;
+
+}
+
+input:active, input:focus {
+
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 4px 0px black;
+
+}
+
+.forgotStyle {
+
+    color: red;
+    border-bottom: 1px solid transparent;
+}
+
+.forgotStyle:hover {
+
+    border-bottom: 1px solid red;
+
+}
+
+.signInStyle {
+
+    color: #fe6a16;
+
+}
+
+label {
+
+    color: #fe6a16;
+
+}
