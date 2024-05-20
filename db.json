@@ -1,12 +1,22 @@
 {
-    "users": [
-      { "id": "1", "userName": "jabiru", "userEmail": "jabiru@gmail.com", "serieA": "","restA":"15sec", "serieB": "", "restB":"15sec" }
-      
-    ],
-
-    "trainer": [
-      { "id": "1", "userName": "biruleibes", "userEmail": "biruleibes@gmail.com", "userPassword":"12345678"}
-      
-    ]
-   
-  }
+  "users": [
+    {
+      "id": "1",
+      "userName": "jabiru",
+      "userEmail": "jabiru@gmail.com",
+      "serieA": "",
+      "restA": "15sec",
+      "serieB": "",
+      "restB": "15sec"
+    }
+  ],
+  "trainer": [
+    {
+      "id": "1",
+      "userName": "biruleibes",
+      "userEmail": "biruleibes@gmail.com",
+      "userPassword": "12345678"
+    }
+    
+  ]
+}
