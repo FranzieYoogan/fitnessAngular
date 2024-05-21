@@ -67,3 +67,9 @@ input:active, input:focus {
     display: none;
 
 }
+
+.errorAlert {
+
+    display: none;
+
+}

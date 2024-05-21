@@ -10,7 +10,7 @@
 
   
 
-<form class="formStyle" (submit)="submit()">
+<form class="formStyle">
 
     <div>
         <img class="mx-auto h-10 w-auto" src="/assets/icons/navbar.png" alt="Your Company">
@@ -155,7 +155,7 @@
     <div class="flex w-full">
       <button
         type="submit"
-        
+        (click)="submit()"
         class="
           flex
           mt-2
@@ -201,7 +201,11 @@
 
 
     <div id="containerAlert" class="okAlert p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400" role="alert">
-        <span class="font-medium">Success alert!</span> Change a few things up and try submitting again.
+        <span class="font-medium">Success alert!</span> It's done Gratz!!.
+      </div>
+
+      <div id="containerAlert2" class="errorAlert p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-green-400" role="alert">
+        <span class="font-medium">ERROR!!</span> Change a few things up and try submitting again.
       </div>
 
 </section>

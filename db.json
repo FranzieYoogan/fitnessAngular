@@ -3,6 +3,7 @@
     {
       "id": "1",
       "userName": "jabiru",
+      "trainerName": "",
       "userEmail": "jabiru@gmail.com",
       "serieA": "",
       "restA": "15sec",
@@ -16,7 +17,12 @@
       "userName": "biruleibes",
       "userEmail": "biruleibes@gmail.com",
       "userPassword": "12345678"
+    },
+    {
+      "id": "09df",
+      "userName": "",
+      "userEmail": "",
+      "userPassword": ""
     }
-    
   ]
 }
