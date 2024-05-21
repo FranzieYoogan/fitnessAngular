@@ -1,6 +1,7 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-signup',
@@ -34,7 +35,9 @@ export class SignupComponent implements OnInit {
     const userPassword:any = document.getElementById('userPassword')
     const containerAlert:any = document.getElementById('containerAlert')
     const containerAlert2:any = document.getElementById('containerAlert2')
-  
+   
+
+   
 
     const body = {
 
