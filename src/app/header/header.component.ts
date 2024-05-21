@@ -14,10 +14,19 @@ export class HeaderComponent implements OnInit {
 
     const login:any = document.getElementById('login')
     const signup:any = document.getElementById('signup')
+    const logout:any = document.getElementById('logout')
+    const series:any = document.getElementById('series')
+    const anchorNav:any = document.getElementById('anchorNav')
 
     if(window.location.href == "http://localhost:4200/") {
   
     login.style.borderBottom = "1px solid white"
+
+    } 
+    
+    if(window.location.href == "http://localhost:4200/dashboard") {
+  
+    series.style.borderBottom = "1px solid white"
 
     } 
     
@@ -26,6 +35,26 @@ export class HeaderComponent implements OnInit {
     signup.style.borderBottom = "1px solid white"
 
   }
+
+  if(localStorage.getItem("trainerName")) {
+
+    login.style.display = "none"
+    signup.style.display = "none"
+    logout.style.display = "block"
+    series.style.display = "block"
+    anchorNav.href = "http://localhost:4200/dashboard"
+
+  } else {
+
+    login.style.display = "block"
+    signup.style.display = "block"
+    logout.style.display = "none"
+    series.style.display = "none"
+    anchorNav.href = "http://localhost:4200/"
+
+  }
+
+  
 
 }
 
@@ -49,6 +78,13 @@ export class HeaderComponent implements OnInit {
 
     }
   
+
+  }
+
+  logout() {
+
+    localStorage.clear()
+    window.location.href = "http://localhost:4200/"
 
   }
 

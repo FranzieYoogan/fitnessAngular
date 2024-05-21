@@ -46,3 +46,22 @@ label {
     color: #fe6a16;
 
 }
+
+.containerAlertAll {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.okAlert {
+
+    display: none;
+
+}
+
+.errorAlert {
+
+    display: none;
+
+}

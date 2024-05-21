@@ -1,29 +1,13 @@
 {
   "users": [
-    {
-      "id": "1",
-      "userName": "jabiru",
-      "trainerName": "",
-      "userEmail": "jabiru@gmail.com",
-      "serieA": "",
-      "restA": "15sec",
-      "serieB": "",
-      "restB": "15sec"
-    }
+    { "id": "1", "userName": "Rodolfo", "serieA":"","serieB":"","restA":"15sec", "restB": "15sec", "started":"" }
+  
   ],
+
   "trainer": [
-    {
-      "id": "1",
-      "userName": "biruleibes",
-      "userEmail": "biruleibes@gmail.com",
-      "userPassword": "12345678"
-    },
-    {
-      "id": "466e",
-      "userName": "franzie",
-      "userEmail": "franzie@gmail.com",
-      "userPassword": "12345678"
-    }
-   
+
+    { "id": "1", "trainerName": "Franzie", "trainerEmail":"franzie@gmail.com","trainerPassword":"12345678"}
+
   ]
+
 }
