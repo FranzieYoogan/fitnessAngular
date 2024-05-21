@@ -17,18 +17,8 @@
       "userName": "biruleibes",
       "userEmail": "biruleibes@gmail.com",
       "userPassword": "12345678"
-    },
-    {
-      "id": "09df",
-      "userName": "",
-      "userEmail": "",
-      "userPassword": ""
-    },
-    {
-      "id": "0af5",
-      "userName": "test",
-      "userEmail": "test@gmail.com",
-      "userPassword": "12345678"
     }
+ 
+    
   ]
 }
